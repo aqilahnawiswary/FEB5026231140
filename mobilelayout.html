@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Alat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .btn-blue {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+        .header-text {
+            font-weight: bold;
+        }
+        .muted-text {
+            color: gray;
+        }
+        .bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        }
+        .notification-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 15px;
+            background: #f5f5f5;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="notification-bar">
+        <span>9:41</span>
+        <div>
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fa fa-battery-full"></i>
+        </div>
+    </div>
+    
+    <div class="container mt-3">
+        <div class="d-flex align-items-end justify-content-end">
+            <a href="#" class="mr-2">&#8592;</a>
+            <span class="muted-text">CekDong!</span>
+            <span class="header-text ml-3">Booking Alat</span>
+        </div>
+        
+        <div class="card mt-3">
+            <div class="d-flex align-items-center">
+                <img src="materialC/8.png" alt="Camera" width="80" class="mr-3">
+                <div>
+                    <h5 class="header-text">CAMERA CANON EOS 4000D</h5>
+                    <p class="muted-text mb-1">Disewakan pada tanggal 20/11/24 <i class="fas fa-calendar-alt"></i></p>
+                    <p class="muted-text mb-1">E17_YANUAR - CREW ITS TV</p>
+                    <p class="muted-text mb-1">07.00 - 19.00</p>
+                    <p><strong>Liputan: Pengukuhan Proffesor</strong></p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <button class="btn btn-light">-</button>
+                <span class="mx-2">1</span>
+                <button class="btn btn-light">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-bar d-flex justify-content-between align-items-center">
+        <span class="muted-text">Teknisi hari ini<br><strong>E17_AJI - TEKNISI ITS TV</strong></span>
+        <button class="btn btn-blue">KONFIRMASI TEKNISI</button>
+    </div>
+</body>
+</html>
